@@ -1,0 +1,204 @@
+body{
+	margin: 0;
+}
+.wrapper2{
+	margin: auto;	
+	width: 1366px;	
+}
+.resume{
+	font-size: 26px;
+	margin-top: 70px;
+	margin-left: 50px;
+	color:#09488C;
+}
+.box1{
+	margin-left: 50px;
+	width: 430px;
+	height: 620px;
+	float: left;
+	background-color: white;
+}
+.box2{
+	width: 800px;
+	height: 700px;
+	margin-right: 50px;
+	float: right;
+	background-color: white;
+}
+.detail{
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	text-align:center;
+	color: #09488C;
+}
+.aboutme{
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px; 
+	text-align:left;
+	color:#09488C;
+}
+.foto{
+	width: 430px;
+	height: 280px;
+	background-color: grey;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../../img/Default.png);
+}
+.foto img{
+	width: 430px;
+	height: 280px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.strip{
+	width: 800px;
+	height: 8px;
+	margin: auto;
+	background-color: #09488C;
+}
+.boxshow{
+	height: 260px;
+	width: 130px;
+	float: left;
+}
+.show {
+	margin-top: 20px;
+	font-size: 20px;
+	padding-left: 20px;
+}
+.databox{
+	height: 70%;
+	width: 100%;
+	float: left;
+}
+.long{
+	width: 260px;
+	float: right;
+}
+.tiwa{
+	
+}
+.thedata{
+	font-size: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.thedata a{
+	font-size: 20px;
+	margin-right: 20px;
+	color: blue
+}
+a a{
+	margin-left: 40px;
+}
+
+.data{
+	font-size: 20px;
+	padding-left: 30px;
+	margin: auto;
+	height: 70px;
+}
+input{
+	height: 27px;
+	width: 730px;
+	background-color: #ededed;
+	border: 2px solid #09488C;
+	border-radius: 10px;
+	padding-left: 10px;
+}
+select{
+	height: 36px;
+	width:740px;
+	font-size: 16px;
+	background-color: #ededed;
+	border: 2px solid #09488C;
+	border-radius: 10px;
+	padding-left: 10px;
+
+}
+button{
+	height: 25px;
+	font-size:16px;
+	float: right;
+	margin-right: 30px;
+}
+.databio{
+	font-size: 20px;
+	padding-top: 20px;
+}
+b{
+	color:#09488C;
+}
+.poto{
+	margin-left: 30px;
+	width: 300px;
+	height: 60px;
+	font-size: 20px;
+}
+.poto input{
+	width: 200px;
+	height: 21px;
+	border:none;
+	background-color: white;
+}
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .resume {
+    font-size: 22px;
+    margin-left: 10px; 
+  }
+
+  .wrapper2 {
+    padding: 10px; 
+  }
+
+  .box1 {
+    width: 100%; 
+    margin-left: 0; 
+    margin-bottom: 20px;
+  }
+
+  .box2 {
+    width: 100%; 
+    margin-right: 0;
+}
+
+  .foto {
+    width: 100%; 
+    height: 220px; 
+  }
+
+  .databox {
+    width: 100%; 
+    float: none; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+
+  .data {
+    width: 100%; 
+}
+
+  input,
+  select {
+    width: 90%;
+  }
+
+  .poto {
+    width: 90%;
+    margin-left: 5%; 
+}
+

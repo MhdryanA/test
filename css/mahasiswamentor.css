@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+.wrapper2 {
+  margin: auto;
+  max-width: 1345px; /* Maksimum lebar .wrapper2 */
+  height: auto; /* Tinggi .wrapper2 otomatis menyesuaikan konten */
+  background-color: #ededed;
+  display: flex; /* Menggunakan flexbox untuk mengatur .wrapper2 */
+  flex-wrap: wrap; /* Jika layar tidak cukup lebar, item akan berbaris ke bawah */
+}
+
+.box1 {
+  width: 100%; /* Lebar .box1 mengisi seluruh lebar .wrapper2 */
+  height: 220px; /* Tinggi .box1, sesuaikan sesuai kebutuhan */
+  max-width: 340px; /* Lebar maksimum .box1 */
+  background-color: #AEC6E1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  width: 100%; /* Lebar .box2 mengisi seluruh lebar .wrapper2 */
+  max-width: 1005px; /* Lebar maksimum .box2 */
+  margin-top: 20px; /* Berikan jarak atas antara .box1 dan .box2 */
+  background-color: white;
+  padding-top: 80px;
+}
+
+.picture {
+  width: 120px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 20px auto;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../img/Default.png);
+   /* Menggunakan overflow: hidden untuk memotong gambar yang terlalu besar */
+}
+
+.picture img {
+  width: 150px; /* Gambar akan mengisi seluruh lebar elemen .picture */
+  height: 150px; /* Gambar akan mengisi seluruh tinggi elemen .picture */
+  object-fit: cover; /* Memastikan gambar memenuhi elemen .picture tanpa distorsi */
+  object-position: center; /* Memposisikan gambar ke tengah */
+}
+
+.navsamping {
+  margin-top: 10px; /* Berikan jarak atas sesuai kebutuhan */
+  width: 100%;
+}
+
+.navsamping a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navsamping a:hover {
+  background-color: #68A0DE;
+  color: white;
+}
+
+table {
+	margin: auto;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  /* CSS untuk layar dengan lebar minimum 768px (perangkat komputer) */
+  .box1 {
+    height: 620px; /* Tinggi .box1 untuk perangkat komputer */
+  }
+
+  .box2 {
+    margin-top: 0; /* Hilangkan jarak atas .box2 pada perangkat komputer */
+  }
+}

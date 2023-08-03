@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	background-color: #ededed;
+}
+.wrapper2{
+	margin: auto;	
+	width: 1366px;
+}
+.resume{
+	font-size: 26px;
+	margin-top: 70px;
+	margin-left: 50px;
+}
+.box1{
+	margin-left: 50px;
+	width: 430px;
+	height: 570px;
+	float: left;
+	background-color: white;
+}
+.box2{
+	width: 800px;
+	height: 570px;
+	margin-right: 50px;
+	float: right;
+	background-color: white;
+}
+.detail{
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	text-align:center;
+}
+.aboutme{
+	font-size: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	text-align:left;
+}
+.foto{
+	width: 430px;
+	height: 260px;
+	background-color: grey;
+	background-position: center;
+	background-size: cover;
+}
+.strip{
+	width: 800px;
+	height: 8px;
+	margin: auto;
+	background-color: #ededed;
+}
+.showdata{
+	width: 332px;
+	height: 258px;
+	left: 129px;
+	position: absolute;
+	margin-left: 60px;
+	color: black;
+	font-size: 26px;
+	font-family: Inria Sans;
+	font-weight: 400;
+	line-height: 52px;
+	word-wrap: break-word;
+}
+.spandata{
+	color: black;
+	font-size: 26px;
+	font-family: Inria Sans;
+	font-weight: 400;
+	line-height: 52px;
+	word-wrap: break-word;
+}
+
+.show{
+	width: 129px;
+	height: 258px;
+	position: absolute;
+}
+.data{
+	font-size: 20px;
+	padding-left: 30px;
+	width: 1000px;
+	margin: auto;
+	height: 70px;
+}
+input{
+	height: 27px;
+	width: 730px;
+	background-color: #ededed;
+	border-radius: 0 !important;
+}
+select{
+	height: 36px;
+	width:740px;
+	font-size: 16px;
+	background-color: #ededed;
+}
+button{
+	height: 25px;
+	font-size:16px;
+	float: right;
+	margin-right: 30px;
+}
+.databio{
+	font-size: 20px;
+	padding-top: 20px;
+}

@@ -1,0 +1,306 @@
+body{
+	width: 1366px;
+	height: auto;
+	position: relative;
+	background: #EDEDED;
+	margin: auto;
+}
+header{
+	width: 1366px;
+}
+
+.resume{
+	width: 172px;
+	height: 49px;
+	left: 54px;
+	top: 248px;
+	position: absolute;
+	color: #08478C;
+	font-size: 32px;
+	font-family: Baloo Da;
+	font-weight: 400;
+	line-height: 48px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+}
+
+.ktkdtmhs{
+	width: 461px;
+	height: 560px;
+	left: 54px;
+	top: 307px;
+	position: absolute;
+	background: whitesmoke;
+}
+
+.dtmhs{
+	width: 461px;
+	height: 49px;
+	left: 54px;
+	top: 319px;
+	position: absolute;
+	text-align: center;
+	color: #08478C;
+	font-size: 32px;
+	font-family: Baloo Da;
+	font-weight: 400;
+	line-height: 48px;
+	letter-spacing: 2.56px;
+	word-wrap: break-word;
+}
+
+.group22{
+	width: 461px;
+	height: 258px;
+	left: 54px;
+	top: 609px;
+	position: absolute;
+}
+
+.tikwa{
+	width: 332px;
+	height: 258px;
+	left: 129px;
+	position: absolute;
+	color: black;
+	font-size: 26px;
+	font-family: Inria Sans;
+	font-weight: 400;
+	line-height: 52px;
+	word-wrap: break-word;
+}
+
+.data{
+	width: 129px;
+	height: 258px;
+	position: absolute;
+}
+
+.spandata{
+	color: black;
+	font-size: 26px;
+	font-family: Inria Sans;
+	font-weight: 400;
+	line-height: 52px;
+	word-wrap: break-word;
+}
+
+.ktkabm{
+	width: 859px;
+	height: 560px;
+	left: 548px;
+	top: 307px;
+	position: absolute;
+	background: white;
+}
+
+.line1{
+	width: 892.01px;
+	left: 536px;
+	top: 373px;
+	position: absolute;
+	border: 3.50px #EDEDED solid;
+}
+
+.line2{
+	width: 892.01px;
+	left: 541px;
+	top: 725px;
+	position: absolute;
+	border: 2px #EDEDED solid;
+}
+
+.abtm2{
+	width: 461px;
+	height: 49px;
+	left: 570px; 
+	top: 319px;
+	position: absolute;
+	color: #08478C;
+	font-size: 32px;
+	font-family: Baloo Da;
+	font-weight: 400;
+	line-height: 48px; 
+	letter-spacing: 3.20px;
+	word-wrap: break-word;
+}
+
+.group29{
+	width: 804px;
+	height: 500px;
+	left: 585.21px;
+	top: 391px;
+	position: absolute;
+}
+
+.group24{
+	width: 804px;
+	height: 51px;
+	position: absolute;
+}
+
+.namalengkap{
+	width: 150px;
+	height: 22.30px;
+	position: absolute;
+	color: black; 
+	font-size: 20px;
+	font-family: Belleza;
+	font-weight: 400;
+	line-height: 30px;
+	word-wrap: break-word;
+}
+
+.ktknama{
+	width: 803.79px;
+	height: 20px;
+	top: 30px;
+	position: absolute;
+	background: #D9D9D9;
+}
+
+.group25{
+	width: 803.79px;
+	height: 51px;
+	top: 55px;
+	position: absolute;
+}
+
+.alamat{
+	width: 79.66px;
+	height: 22.30px;
+	position: absolute;
+	color: black;
+	font-size: 20px; font-family: Belleza;
+	font-weight: 400;
+	line-height: 30px;
+	word-wrap: break-word;
+}
+
+.ktkalamat{
+	width: 803.79px;
+	height: 20px;
+	top: 30px;
+	position: absolute;
+	background: #D9D9D9;
+}
+
+.group26{
+	width: 803.79px;
+	height: 50.75px;
+	top: 110px;
+	position: absolute;
+}
+
+.nope{
+	width: 150px;
+	height: 22.30px;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-family: Belleza;
+	font-weight: 400;
+	line-height: 30px;
+	word-wrap: break-word;
+}
+
+.ktknope{
+	width: 803.79px;
+	height: 20px;
+	top: 30px;
+	position: absolute;
+	background: #D9D9D9;
+}
+
+.group27{
+	width: 803.79px;
+	height: 50.75px;
+	top: 165px;
+	position: absolute;
+}
+
+.email{
+	width: 79.66px;
+	height: 22.30px;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-family: Belleza;
+	font-weight: 400;
+	line-height: 30px;
+	word-wrap: break-word;
+}
+
+.ktkemail{
+	width: 803.79px;
+	height: 20px;
+	top: 30px;
+	position: absolute;
+	background: #D9D9D9;
+}
+
+.group28{
+	width: 803.79px;
+	height: 50.75px;
+	top: 220px;
+	position: absolute;
+}
+
+.divisi{
+	width: 112.35px;
+	height: 22.30px;
+	position: absolute;
+	color: black;
+	font-size: 20px;
+	font-family: Belleza;
+	font-weight: 400;
+	line-height: 30px;
+	word-wrap: break-word;
+}
+
+.pilihan{
+	width: 810px;
+	height: 28px;
+	top: 30px;
+	position: absolute;
+	background: #D9D9D9;
+}
+
+.group30{
+	width: 80px;
+	height: 28px;
+	left: 1309px;
+	top: 682px; 
+	position: absolute;
+}
+
+.update{
+	width: 80px;
+	height: 28px;
+	top: 3px;
+	left: -1px;
+	position: absolute;
+	text-align: center;
+	color: black;
+	font-size: 15px;
+	font-family: Belleza;
+	font-weight: 400;
+	word-wrap: break-word;
+}
+
+.ktkupdate{
+	width: 80px;
+	height: 28px;
+	position: absolute;
+	background: #D9D9D9;
+}
+
+.ftmhs{
+	width: 461px;
+	height: 234px;
+	left: 54px;
+	top: 375px;
+	position: absolute;
+}

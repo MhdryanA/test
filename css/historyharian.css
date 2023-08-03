@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+.wrapper1 {
+    max-width: 1366px;
+    width: 100%;
+    background-color: #EBEBEB;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #08478C;
+}
+
+.judul {
+    width: 120%;
+    max-width: 1366px;
+    height: 50px;
+    background-color: white;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.back {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 30px;
+    justify-content: left;
+    text-align: center;
+}
+
+.back img {
+    object-position: center;
+    object-fit: cover;
+}
+
+.isi {
+    width: 120%;
+    max-width: 1366px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: #ededed;
+    flex-wrap: wrap;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto; /* Menampilkan bilah geser horizontal pada perangkat dengan lebar maksimum 768px */
+}
+
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Responsif pada perangkat dengan lebar maksimum 768px */
+@media screen and (max-width: 768px) {
+    /* Properti CSS untuk tabel di dalam media query */
+    table th,
+    table td {
+        font-size: 14px;
+    }
+}
+
+.datalaporan {
+    width: 150%;
+    max-width: 1366px;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+}
+
+.waktunuser {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.verify {
+    height: 40px;
+    width: 40%;
+    max-width: 130px;
+    background-color: green;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.notverified{
+    background-color: red;
+    text-align: center;
+    font-size: 10px;
+}
+.verified{
+    background-color: green;
+    text-align: center;
+    font-size: 10px;
+}

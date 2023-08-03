@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Pelaporan</title>
+    <link rel="stylesheet" type="text/css" href="css/about.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="medan" src="img/medan.png">
+            <div class="textlogo">Dinas Komunikasi dan Informatika<br/>Pemerintah Kota Medan</div>
+        </div>
+        <div class="profil">
+            <div class="gprofil">
+                <img class="imgprofil" src="img/profil.png">
+            </div>
+        </div>
+    </header>
+    <nav>
+        <a class="abm" href="about.html">
+            <div class="aboutme">About Me</div>
+            <div class="logoabm">
+                <img src="img/aboutme.png">
+            </div>
+        </a>
+        <a class="rpt" href="report.html">
+            <div class="report">Report</div>
+            <div class="logorpt">
+                <img src="img/report.png">
+            </div>
+        </a>
+        <a class="hst" href="history.html">
+            <div class="history">History</div>
+            <div class="logohst">
+                <img src="img/history.png">
+            </div>
+        </a>
+    </nav>
+    <div class="resume">Resume</div>
+    <div class="ktkdtmhs"></div>
+    <div class="dtmhs">Data Mahasiswa</div>
+    <div class="group22">
+        <div class="tikwa">:<br/>:<br/>:<br/>:<br/>:</div>
+        <div class="data">
+            <span class="spandata">Nama<br/>NPM<br/>Jurusan<br/>Fakultas<br/>Universitas</span>
+        </div>
+    </div>
+    <div class="ktkabm"></div>
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="abtm2">Input Data</div>
+    <div class="group29">
+        <div class="group24">
+            <div class="namalengkap">Nama Lengkap</div>
+            <input class="ktknama" placeholder="Masukan Nama Anda"></input>
+        </div>
+        <div class="group25">
+            <div class="alamat">Alamat</div>
+            <input class="ktkalamat" placeholder="Masukan Alamat Anda"></input>
+        </div>
+        <div class="group26">
+            <div class="nope">No. Handphone</div>
+            <input class="ktknope" type="text" onkeypress="onlyNumbers(event)" placeholder="Masukan No. HP Anda"></input>
+        </div>
+        <div class="group27">
+            <div class="email">Email</div>
+            <input class="ktkemail" placeholder="Masukan Email Anda"></input>
+        </div>
+        <div class="group28">
+            <div class="divisi" placeholder="Pilih Divisi">Divisi</div>
+            <select class="pilihan" onchange="myFunction()">
+                <option value="">-Pilih Divisi-</option>
+                <option value="1">Persandian</option>
+                <option value="2">Komunikasi Publik</option>
+                <option value="3">Statistik dan Informasi Publik</option>
+                <option value="4">Teknologi Informasi</option>
+                <option value="5">Aplikasi Informatika</option>
+            </select>
+        </div>
+    </div>
+    <button class="group30">
+        <div class="update">Update</div>
+    </button>
+    </div>
+    <img class="ftmhs" src="#">
+</body>
+    <script>
+        function onlyNumbers(event) {
+            event = event || window.event;
+            var key = event.keyCode || event.which;
+            key = String.fromCharCode(key);
+            var regex = /[0-9]|\./;
+            if (!regex.test(key)) {
+                event.returnValue = false;
+                if (event.preventDefault) event.preventDefault();
+            }
+        }
+    </script>
+</html>

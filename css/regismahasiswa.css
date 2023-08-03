@@ -1,0 +1,53 @@
+.boxed {
+  width: 100%; /* Lebar .box2 mengisi seluruh lebar .wrapper2 */
+  max-width: 1005px; /* Lebar maksimum .box2 */
+  margin-top: 20px; /* Berikan jarak atas antara .box1 dan .box2 */
+  background-color: #ededed;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapperk {
+  margin: auto;
+  max-width: 1345px; /* Maksimum lebar .wrapper2 */
+  height: auto; /* Tinggi .wrapper2 otomatis menyesuaikan konten */
+  background-size: cover;
+  background-position: center;
+  background-image: url();
+  display: flex; /* Menggunakan flexbox untuk mengatur .wrapper2 */
+  flex-wrap: wrap; /* Jika layar tidak cukup lebar, item akan berbaris ke bawah */
+  background-color: #ededed;
+}
+.formregist{
+  width: 80%;
+  height: 80%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #ededed;
+}
+h3{
+  text-align: center;
+}
+input{
+  height: 30px;
+  width: 50%;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+button{
+  margin-top: 30px;
+  height: 30px;
+  width: 20%;
+}
+select{
+  margin-top: 10px;
+  height: 40px;
+  width: 52%;
+}
+.data{
+  font-size: 16px;
+  text-align: left;
+  margin-left: 200px;
+}

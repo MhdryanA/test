@@ -1,0 +1,77 @@
+body{
+	background-image: url(/img/kominfo.jpg);
+	background-size: cover;
+	background-color: black;
+
+
+}
+.boxform{
+	height: 450px;
+	width: 450px;
+	background-color: white;
+	margin: auto;
+	border-radius: 30px;
+}
+.n{
+
+	height: 60px;
+}
+.logo{
+	height: 150px;
+	width: 150px;
+	margin-left: 150px;
+	margin-top: -95px;
+	background-size: cover;
+	background-image: url(/img/profile.png)
+}
+h2{
+	
+	font-size: 34px;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+.box{
+	height: 40px;
+	margin-top: 10px;
+	width: 320px;
+	margin-left: 60px;	
+	
+}
+button{
+	width: 200px;
+	height: 30px;
+	margin-left: 120px;
+	background-color: #5F88B4;
+	font-size: 18px;
+	display: flex;
+	border-radius: 50px;
+	justify-content: center;
+
+}
+p{
+	font-size: 15px;
+	text-align: left;
+	margin-left: 15px;
+	color: black;
+	margin-top: 10px;
+}
+.lp{
+	font-size: 15px;
+	text-align: center;
+	color: black;
+	margin: auto;
+
+}
+input{
+	height: 36px;
+	width: 313px;
+	margin-top: -5px;
+	padding-left: 10px;
+	border-radius: 50px;
+	background-color: #5F88B4;
+}
+.error{
+	text-align: center;
+	font-size: 15x;
+	color: red;
+}

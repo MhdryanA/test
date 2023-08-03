@@ -1,0 +1,56 @@
+header{
+    width: 1440px;
+    height: 113px;
+    position: absolute;
+    background: #09488C;
+}
+
+.logo{
+    width: 379px;
+    height: 94px;
+    left: 10px;
+    top: 9px;
+    position: absolute;
+}
+
+.medan{
+    width: 87.26px;
+    height: 94px;
+    position: absolute;
+}
+
+.textlogo{
+    width: 287.40px;
+    height: 57.33px;
+    left: 91.60px;
+    top: 18px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Belleza;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.profil{
+    width: 61px;
+    height: 61px;
+    left: 1331px;
+    top: 27px;
+    position: absolute;
+}
+
+.gprofil{
+    width: 55.92px;
+    height: 55.92px;
+    left: 2.54px;
+    top: 2.54px;
+    position: absolute;
+}
+
+.imgprofil{
+    width: 55.92px;
+    height: 55.92px;
+    position: absolute;
+}

@@ -1,0 +1,108 @@
+body {
+  background-image: url(../../img/login/kominfo.jpg);
+  background-size: cover;
+  background-color: black;
+}
+
+.boxform {
+  height: 450px;
+  width: 450px;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.n {
+  height: 60px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  margin-left: 150px;
+  margin-top: -95px;
+  background-size: cover;
+  background-image: url(../../img/login/profile.png)
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.box {
+  height: 40px;
+  margin-top: 10px;
+  width: 320px;
+  margin-left: 60px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  margin-left: 170px;
+  background-color: #f8fbff;
+  font-size: 15px;
+  display: flex;
+  border-radius: 50px;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+button:hover {
+  background-color: #272d49;
+  color: #fff;
+}
+
+p {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 15px;
+  color: black;
+  margin-top: 10px;
+}
+
+.lp {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  margin: auto;
+}
+
+input {
+  height: 36px;
+  width: 313px;
+  margin-top: -5px;
+  padding-left: 10px;
+  border-radius: 50px;
+  background-color: #dde6f0;
+}
+
+.error {
+  text-align: center;
+  font-size: 15x;
+  color: red;
+}
+
+/* Responsif untuk perangkat seluler (HP) */
+@media (max-width: 600px) {
+  .boxform {
+    width: 80%;
+    max-width: 400px;
+  }
+  .logo {
+    height: 100px;
+    width: 100px;
+    margin-left: calc(50% - 50px);
+    margin-top: -75px;
+  }
+  .box {
+    width: 80%;
+    max-width: 300px;
+    margin-left: calc(50% - 150px);
+  }
+  button {
+    margin-left: calc(50% - 50px);
+  }
+}

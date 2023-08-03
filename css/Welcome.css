@@ -1,0 +1,117 @@
+
+.kotak1{
+	height: 950px;
+	width: 1340px;
+	background-image: url(/img/anggotamagang.png);
+	margin: auto;
+}
+.welcome{
+	height: 50px;
+	width: 300px;
+	margin-left: 520px;
+	text-align: center;
+	margin-top: 100px;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FFFFFF;
+  
+}
+
+
+.konten1{
+	height: 350px;
+	width: 350px;
+	margin-top: 250px;
+	margin-left: 74px;
+	float: left;
+	text-align: center;
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.kotak2{
+	height: 700px;
+	width: 1340px;
+	background-image: linear-gradient(to top, #222222, #000000);
+	margin: auto;
+}
+.start{
+	border: 2px solid white;
+    padding: 5px;
+	height: 60px;
+	width: 300px;
+	margin-left: 520px;
+	text-align: center;
+	margin-top: 100px;
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+.konten2{
+	height: 200px;
+	width: 350px;
+	background-color: black;
+	margin-top: 100px;
+	margin-left: 160px;
+	margin-right: 150px; 
+	border-radius: 20px;
+	border: 2px solid white;
+	float: left;
+
+}
+.tentang{
+	height: 200px;
+	width: 310px;
+	margin: auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    background-image: url(/img/tentang2.png);
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #333;
+}
+.teks{
+	margin-right: 50px;
+	text-align: center;
+	font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+
+
+
+}
+.tentang:hover {
+     opacity: 50%;
+  transition: opacity 0.5s ease;
+	}
+
+
+.list{
+	height: 200px;
+	width: 310px;
+	margin: auto;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	background-image: url(/img/unpab.png);
+    background-size: cover;
+    background-position: center;
+    font-size: 18px;
+    background-color: blue;
+    transition: opacity 0.5s ease;
+    font-weight: bold;
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+.list:hover {
+     transition: opacity 0.5s ease;
+     opacity: 50%;
+	}

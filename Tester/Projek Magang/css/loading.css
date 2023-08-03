@@ -1,0 +1,24 @@
+.loading-animation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to top, #08478c, #5f88b4, #FFFFFF);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+      z-index: 9999;
+    }
+
+    .loading-animation.hide {
+      opacity: 0;
+    }
+
+
+    img{
+      width: 200px;
+      height: auto;
+    }

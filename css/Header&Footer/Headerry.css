@@ -1,0 +1,43 @@
+ .wrapper1 {
+            width: 100%;
+            background-color: #EBEBEB;
+            margin: auto;
+        }
+
+        .header {
+            width: 100%;
+            height: 100px;
+            background-color: #09488C;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            padding: 0 20px; 
+        }
+
+        .isiheaderkiri {
+            display: flex;
+            align-items: center;
+        }
+
+        .isiteks {
+            font-size: 20px;
+            color: white;
+            padding: 0 20px;
+            margin-right: 600px;
+        }
+
+        .isiheaderkanan {
+            display: flex;
+            align-items: center;
+            float: right;
+        }
+
+        .isiheaderkiri .logo {
+            margin-right: 20px;
+        }
+li {
+    list-style: none;
+}
+
+}
+}

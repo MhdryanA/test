@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Pelaporan</title>
+  <link rel="stylesheet" type="text/css" href="css/loading.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <script>
+    // Menghilangkan animasi load setelah halaman selesai dimuat
+    window.addEventListener("load", function() {
+      var loadingAnimation = document.getElementById("loading-animation");
+      loadingAnimation.classList.add("hide");
+    });
+  </script>
+</head>
+<body>
+  <!-- Animasi load -->
+  <div id="loading-animation" class="loading-animation">
+    <img src="img/komincut.png">
+  </div>
+
+  <!-- Konten halaman -->
+  <div class="n"></div>
+    <br><br>
+    <div class="boxform">
+        <br>
+        
+        <div class="logo"></div>
+        <h2><b>LOGIN</b></h2>
+        
+        <form method="post" action="{{ route('login.submit') }}">
+            @csrf
+            <div class="box">
+                <input type="text" name="username" id="username" placeholder="Username" required>
+            </div>
+            <div class="box">
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+            <br><br>
+            <div class="boxlgn">
+                <button type="submit">Login</button>
+            </div>
+            <br>
+            @error('username')
+                <div class="error">{{ $message }}</div>
+            @enderror
+            @error('password')
+                <div class="error">{{ $message }}</div>
+            @enderror
+        </form>
+        <br>
+        
+        <div class="lp">Lupa Password? Harap Lapor Pembimbing Kamu</div>
+    </div>
+</body>
+</html>

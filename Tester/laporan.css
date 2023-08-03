@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+}
+.wrapper2{
+	width: 1366px;
+	height: 600px;
+	background-color: #ededed;
+	margin: auto;
+}
+.boxmid{
+	width: 1366px;
+	height: 200px;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	margin-top: 160px;
+}
+.isi{
+	width: 350px;
+	height: 200px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-color: #94BDEA;
+}
+.gambar{
+	width: 100px;
+	height: 100px;
+	margin-top: 50px;
+	margin-left: 10px;
+	background-size: cover;
+	background-position: center;
+	float: left;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+}
+.teks{
+	width: 220px;
+	height: 150px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+}
+.teks a{
+	color: white;
+	font-size: 26px;
+
+}
+.details{
+	width: 350px;
+	height: 40px;
+	background-color: #5F88B4;
+	display: flex;
+ 	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+}
+.details:hover{
+	background-color: #353e68;
+}
+a .details{
+	margin-top: -23px;
+}
